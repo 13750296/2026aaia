@@ -1,0 +1,12 @@
+///week 05-3a.cpp SOIT106_BASE_012
+#include <stdio.h>
+int main()
+{
+int n;
+scanf("%d",&n);
+if(n>=90) printf("A\n");
+else if(n>=80) printf("B\n");
+else if(n>=60) printf("C\n");
+else printf("F\n");
+
+}
